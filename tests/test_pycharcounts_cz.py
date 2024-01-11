@@ -1,0 +1,1 @@
+from pycharcounts_cz import pycharcounts_cz
