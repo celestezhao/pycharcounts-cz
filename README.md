@@ -1,6 +1,6 @@
 # pycharcounts_cz
 
-Calculate the number of characters in a text filee.
+Calculate the number of characters in a text file.
 
 ## Installation
 
@@ -10,7 +10,18 @@ $ pip install pycharcounts_cz
 
 ## Usage
 
-- TODO
+`pycharcounts_cz` can be used to count characters in a text file 
+and present results as follows:
+
+```python
+from pycharcounts_cz.pycharcounts_cz import count_characters
+from pycharcounts_cz.output import full_output
+import pandas as pd
+
+file_path = "test.txt"  # path to your file
+count = count_characters(file_path)
+full_output(file_path, count)
+```
 
 ## Contributing
 
